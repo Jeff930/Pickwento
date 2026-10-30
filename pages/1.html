@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicKwento</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="shortcut icon" href="#!" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+
+<body>
+
+    <div class="toolbar">
+        <button id="homeButton">🏠 Select Book</button>
+        <button id="pencilButton">✏️ Draw</button>
+        <button id="eraserButton">🩹 Erase</button>
+        <button id="clearButton">🗑️ Clear All</button>
+        <button id="saveButton">💾 Save</button>
+
+        <div class="colorContainer">
+            <label>Active Color:</label>
+            <input type="color" id="colorPicker" value="#000000">
+        </div>
+    </div>
+
+    <div class="book">
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/cover.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-0.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-1.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-2.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-3.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-4.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-5.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-6.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-7.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-8.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-9.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-10.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-11.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-12.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-13.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-14.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-15.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-16.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-17.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-18.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-19.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-20.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-21.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-22.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-23.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-24.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-25.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-26.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-27.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-28.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-29.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-30.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-31.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-32.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-33.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-34.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-35.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-36.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-37.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-38.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-39.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-40.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-41.jpg" alt="" />
+            </div>
+            <div class="back">
+                <img src="../images/books/1/week 1 - converted-images-42.jpg" alt="" />
+            </div>
+        </div>
+
+        <div class="page">
+            <div class="front">
+                <img src="../images/books/1/week 1 - converted-images-43.jpg" alt="" />
+            </div>
+            <div class="back">
+            </div>
+        </div>
+    </div>
+
+    <canvas id="drawingCanvas"></canvas>
+
+    <script src="../index.js"></script>
+</body>
+
+</html>
